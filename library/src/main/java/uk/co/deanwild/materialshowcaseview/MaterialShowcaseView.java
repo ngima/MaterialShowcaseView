@@ -504,6 +504,7 @@ public class MaterialShowcaseView extends FrameLayout implements View.OnTouchLis
             }
         }
     }
+
     private void updateSkipButton() {
         // hide or show button
         if (mSkipButton != null) {
@@ -610,6 +611,7 @@ public class MaterialShowcaseView extends FrameLayout implements View.OnTouchLis
 
         /**
          * Set whether or not the target view can be touched while the showcase is visible.
+         * <<<<<<< HEAD
          * <p>
          * False by default.
          */
@@ -620,9 +622,11 @@ public class MaterialShowcaseView extends FrameLayout implements View.OnTouchLis
 
         /**
          * Set whether or not the showcase should dismiss when the target is touched.
+         * <<<<<<< HEAD
          * <p>
          * True by default.
          */
+
         public Builder setDismissOnTargetTouch(boolean dismissOnTargetTouch) {
             showcaseView.setDismissOnTargetTouch(dismissOnTargetTouch);
             return this;

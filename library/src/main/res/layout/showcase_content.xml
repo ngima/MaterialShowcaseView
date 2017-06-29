@@ -37,6 +37,7 @@
             android:id="@+id/tv_skip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
             android:layout_marginTop="20dp"
             android:background="?android:attr/selectableItemBackground"
             android:clickable="true"
@@ -47,7 +48,6 @@
             android:text="Skip Tutorial"
             android:textColor="#80FFFFFF"
             android:textSize="22dp"
-            android:layout_marginRight="16dp"
             tools:text="dismiss" />
 
         <TextView
@@ -68,5 +68,4 @@
             tools:visibility="visible" />
 
     </LinearLayout>
-
 </LinearLayout>

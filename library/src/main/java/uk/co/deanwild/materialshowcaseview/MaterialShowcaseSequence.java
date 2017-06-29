@@ -143,6 +143,7 @@ public class MaterialShowcaseSequence implements IDetachedListener {
     }
 
     @Override
+
     public void onShowcaseDetached(MaterialShowcaseView showcaseView, boolean wasDismissed) {
 
         showcaseView.setDetachedListener(null);
